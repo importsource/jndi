@@ -23,6 +23,17 @@ public class ServiceLocatorSample {
    }
 }
 ```
+output
+```log
+[Sun Apr 17 22:02:04 CST 2016][INFO] (com.importsource.jndi.ServiceLocatorSample.java: Line 13)importsource.jndi.service.scope=com.importsource.jndi.service
+Executing Service1
+[Sun Apr 17 22:02:04 CST 2016][INFO] (com.importsource.jndi.ServiceLocatorSample.java: Line 15)importsource.jndi.service.scope=com.importsource.jndi.service
+Executing Service2
+[Sun Apr 17 22:02:04 CST 2016][INFO] (com.importsource.jndi.ServiceLocatorSample.java: Line 17)Returning cached  Service1 object
+Executing Service1
+[Sun Apr 17 22:02:04 CST 2016][INFO] (com.importsource.jndi.ServiceLocatorSample.java: Line 19)Returning cached  Service2 object
+Executing Service2
+```
 
 
 ###create a new  service 
