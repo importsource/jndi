@@ -1,0 +1,2 @@
+# jndi
+A  service locator
